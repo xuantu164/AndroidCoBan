@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+    <TextView
+        android:textColor="#3e3b3b"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:id="@+id/textviewtitleplaylist"
+        android:text="NHỊP ĐIỆU CẢM XÚC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <ListView
+        android:id="@+id/listviewplaylist"
+        android:layout_below="@id/textviewtitleplaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/listviewplaylist"
+        android:gravity="center"
+        android:background="#c9c7c7"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="5dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/iconmoreplaylist">
+        </ImageView>
+
+     <TextView
+         android:layout_gravity="center"
+        android:text="Xem thêm playlist"
+        android:textSize="14sp"
+        android:id="@+id/textviewmoreplaylist"
+         android:layout_margin="5dp"
+        android:textColor="#913677"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    </LinearLayout>
+
+</RelativeLayout>

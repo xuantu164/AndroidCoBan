@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbardangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/linearlayouttennguoidung"
+        android:background="@drawable/layout1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_baseline_people_outline_24"
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+        </ImageView>
+
+        <TextView
+            android:text="Tên người dùng"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayoutvip"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/linearlayouttennguoidung"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:text="Bạn chưa đăng kí VIP"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <Button
+            android:text="MUA VIP"
+            android:background="#f2ca11"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="135dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayoutcanhan"
+        android:layout_marginTop="5dp"
+        android:background="#f5f0fb"
+        android:layout_below="@+id/linearlayoutvip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="CÁ NHÂN"
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/linearlayoutcanhan"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_baseline_notifications_none_24"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp">
+                </ImageView>
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:text="Thông báo của bạn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_baseline_favorite_border_24"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp">
+                </ImageView>
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:text="Sở thích âm nhạc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_baseline_block_24"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp">
+                </ImageView>
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:text="Danh sách chặn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_baseline_access_time_24"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp">
+                </ImageView>
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:text="Danh sách tạm ẩn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/ic_baseline_call_missed_outgoing_24"></ImageView>
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="200dp"
+                android:text="Đăng xuất tài khoản"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

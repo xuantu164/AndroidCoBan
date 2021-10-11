@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardviewdanhsachbaihat"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:id="@+id/relativelayoutdanhsachbaihat"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:text="1"
+            android:id="@+id/textviewdanhsachindex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageviewhinhanhbaihat"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/textviewdanhsachindex"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_launcher_background">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textviewtenbaihat"
+            android:textSize="20sp"
+            android:text="Tên ca khúc"
+            android:textColor="#030303"
+            android:layout_toRightOf="@id/imageviewhinhanhbaihat"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:maxWidth="250dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#979797"
+            android:text="Ca sĩ"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/imageviewhinhanhbaihat"
+            android:layout_below="@id/textviewtenbaihat"
+            android:id="@+id/textviewtencasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <ImageView
+            android:src="@drawable/iconlove"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/imageviewluotthichdanhsachbaihat"
+            android:layout_width="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="20dp">
+        </ImageView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relativelayoutlienhe"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagelienhe"
+            android:background="@drawable/ic_thuongthuong"
+            android:layout_margin="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+        </ImageView>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:text="from tuchelsea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imagelienhe">
+        </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/linearlayout1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textviewgioithieu"
+            android:text="Giới thiêu"
+            android:textSize="14sp"
+            android:layout_below="@id/imagelienhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textviewlienhe"
+            android:text="Liên hệ"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/textviewgioithieu"
+            android:layout_below="@id/imagelienhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textviewquangcao"
+            android:text="Quảng cáo"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"
+            android:layout_toRightOf="@+id/textviewlienhe"
+            android:layout_below="@id/imagelienhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textviewgopy"
+            android:text="Góp ý"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"
+            android:layout_toRightOf="@+id/textviewquangcao"
+            android:layout_below="@id/imagelienhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <!--<TextView
+            android:id="@+id/textviewthoathuan"
+            android:text="Thỏa thuân sử dụng"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/textviewgopy"
+            android:layout_below="@id/imagelienhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>-->
+
+        </LinearLayout>
+
+</RelativeLayout>

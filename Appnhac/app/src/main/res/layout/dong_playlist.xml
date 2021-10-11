@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relativelayoutcacplaylist"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardviewplaylist"
+    android:elevation="@dimen/cardview_default_elevation"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageviewbackgroundplaylist"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+    </ImageView>
+
+    <View
+        android:background="@drawable/custom_background_banner"
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+    </View>
+
+    <ImageView
+        android:id="@+id/imageviewplaylist"
+        android:layout_alignBottom="@id/imageviewbackgroundplaylist"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:elevation="6dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:layout_marginRight="10dp"
+        android:maxLines="1"
+        android:id="@+id/textviewtenplaylist"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/imageviewplaylist"
+        android:layout_alignBottom="@id/imageviewplaylist"
+        android:text="Những bài hít cũ"
+        android:textSize="13sp">
+    </TextView>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+</RelativeLayout>

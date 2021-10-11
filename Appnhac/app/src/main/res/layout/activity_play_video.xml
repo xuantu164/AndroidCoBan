@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.appnhac.Activity.PlayVideoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarplayvideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="5dp"
+        app:cardCornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/myYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/mautim"
+        android:textStyle="bold"
+        android:text="Chọn mở với Youtube để có trải nghiệm tốt hơn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <!--<LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageviewhinhmv"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:background="@drawable/ic_launcher_background">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textviewtitlemv"
+        android:textColor="#000000"
+        android:lines="2"
+        android:maxWidth="200dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="5dp"
+        android:text="Tên MV tỉ View"
+        android:textSize="19sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</androidx.cardview.widget.CardView>
+    </LinearLayout>-->
+
+</LinearLayout>

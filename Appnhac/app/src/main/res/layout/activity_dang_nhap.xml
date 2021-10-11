@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linearlayoutdangnhap"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/animation_list"
+    tools:context="com.example.appnhac.Activity.DangNhapActivity">
+
+        <ImageView
+            android:id="@+id/imageviewicondangnhap"
+            android:layout_marginTop="250dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_thuongthuong"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+        </ImageView>
+
+    <TextView
+        android:id="@+id/textviewungdungnghenhac"
+        android:textSize="18sp"
+        android:textColor="@color/mautim"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="ỨNG DỤNG NGHE NHẠC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@color/mautim"
+        android:layout_marginTop="60dp"
+        android:text="Để sau"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:id="@+id/btnloginwithaccout"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:background="@color/mautim"
+        android:text="Đăng nhập"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <TextView
+        android:id="@+id/textviewfromdangnhap"
+        android:layout_marginTop="30dp"
+        android:text="from"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textviewtuchelseadangnhap"
+        android:textStyle="bold"
+        android:text="tuchelsea"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/progressbardangnhap"
+        style="?android:attr/progressBarStyle"
+        android:visibility="gone"
+        android:layout_marginTop="70dp"
+        android:indeterminateDrawable="@drawable/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageviewhinhtimkiem"
+        android:scaleType="fitXY"
+        android:layout_width="80dp"
+        android:layout_height="80dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textviewtimkiemtenbaihat"
+        android:textSize="18sp"
+        android:textColor="#0a0a0a"
+        android:maxWidth="250dp"
+        android:layout_toRightOf="@+id/imageviewhinhtimkiem"
+        android:layout_marginLeft="5dp"
+        android:text="Tên bài hát"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+        <TextView
+            android:id="@+id/textviewtencasitimkiem"
+            android:layout_below="@+id/textviewtimkiemtenbaihat"
+            android:textSize="15sp"
+            android:textColor="#6e6e6e"
+            android:maxWidth="250dp"
+            android:layout_toRightOf="@+id/imageviewhinhtimkiem"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Tên ca sĩ"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageviewluotthichtimkiem"
+            android:src="@drawable/iconlove"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp">
+        </ImageView>
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

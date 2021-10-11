@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.appnhac.Activity.DanhsachtatcachudeActivity"
+    android:elevation="@dimen/cardview_default_elevation">
+
+    <androidx.appcompat.widget.Toolbar
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:id="@+id/toolbardanhsachcacmv"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/listviewdanhsachmv"
+        android:layout_below="@+id/toolbardanhsachcacmv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewdanhsachcacvideo"
+        android:layout_below="@+id/toolbardanhsachcacmv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>-->
+
+</RelativeLayout>

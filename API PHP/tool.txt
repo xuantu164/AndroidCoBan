@@ -1,0 +1,5 @@
+tools:layout="@layout/fragment_banner"
+tools:layout="@layout/fragment_playlist"
+tools:layout="@layout/fragment_chude_theloai_today"
+tools:layout="@layout/fragment_album_hot"
+

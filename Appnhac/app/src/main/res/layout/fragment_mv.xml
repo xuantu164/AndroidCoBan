@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardviewmv"
+        app:cardCornerRadius="5dp">
+    <RelativeLayout
+        android:id="@+id/relativemv"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f0fb">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:id="@+id/textviewtitlmv"
+            android:text="MV TỈ VIEW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:textColor="#913677"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:text="Xem thêm"
+            android:id="@+id/textviewxemthemmv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewdanhsachvideo"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <!--<ListView
+        android:id="@+id/listviewdanhsachvideo"
+        android:layout_below="@id/relativemv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>-->
+
+    <!--<com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/myYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.google.android.youtube.player.YouTubePlayerView>-->
+
+</LinearLayout>
